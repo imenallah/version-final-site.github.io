@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Amiri', serif; 
+    color: #333; 
+    background-color: #f8f9fa; 
+    line-height: 1.6; 
+    direction: rtl; 
+    text-align: right;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(to bottom, #ffcc00, #ff9900);
+    color: white;
+    padding: 50px 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+
+.soleil {
+
+    background-image: url(images/sun.png);
+}
+.mars{
+
+   
+    background-image: url(images/mr.jpg);
+    background-size: 1500px;  
+}
+.jupiter{
+
+    background-image: url(images/jup.jpg);
+    background-size: 1500px;
+}
+.saturne{
+    background-image: url(images/saturn.png);
+}
+.venus{
+    background-image: url(images/ven.jpg);
+}
+.uranus{
+    background-image: url(images/uran.jpg);
+    background-size: 1500px;
+}
+.terre{
+    background-image: url(images/ter.jpg);
+    background-size: 1500px;
+}
+.neptune{
+    background-image: url(images/nep.jpg);
+    background-size: 1500px;
+}
+.mercure{
+    background-image: url(images/mer.jpg);
+}
+
+.infos1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    min-width: 300px;
+    font-size: 1rem;
+    text-align: justify;
+    margin: 20px;  
+}
+.info2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    min-width: 300px;
+    font-size: 1rem;
+    text-align: justify; 
+}
+h2 {
+    font-size: 1.8rem;
+    color: #ff9900;
+    margin: 20px;
+}
+
+ ul {
+    list-style: disc;
+    margin-right: 20px; 
+    text-align: justify;
+    min-width: 300px;
+    font-size: 1rem;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+.color{
+    color: rgb(123, 77, 18);
+}
+.col{
+    color: #f8f9fa;
+}
